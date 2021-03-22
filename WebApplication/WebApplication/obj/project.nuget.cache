@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "nDmi6RdrwjyPsfDM7BNoGJCHuVGU5hDRWfzviDfHH9qtNp+m8e1kRAZ3NqM1st82hUC47COUPYRl0QrEsDyUTQ==",
+  "dgSpecHash": "zX3PTr90m/UFCq3pqdz/8D2C4IxFR1KjP7x4kQnTP4M76LwEYqVMQxaJIayvD5z0LI9Uw8D/H95sqzZOkuRvyg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jkhg\\Desktop\\ProjectNotToChange\\me\\git\\kurs\\WebApplication\\WebApplication\\WebApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jkhg\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\jkhg\\.nuget\\packages\\microsoft.aspnet.signalr\\2.4.1\\microsoft.aspnet.signalr.2.4.1.nupkg.sha512",
     "C:\\Users\\jkhg\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\jkhg\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\jkhg\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
