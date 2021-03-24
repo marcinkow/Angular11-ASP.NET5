@@ -73,7 +73,7 @@ export class EmployeeService {
   
   private initializeEmployee(): Employee {  
     return {  
-      id: null,  
+      id: undefined,  
       name: null,  
       address: null,  
       gender: null,  
@@ -81,5 +81,5 @@ export class EmployeeService {
       designation: null,  
       cityname: null  
     };  
-  }  
+  }   
 } 
