@@ -73,7 +73,7 @@ export class EmployeeService {
   
   private initializeEmployee(): Employee {  
     return {  
-      id: undefined,  
+      id: null,  
       name: null,  
       address: null,  
       gender: null,  
