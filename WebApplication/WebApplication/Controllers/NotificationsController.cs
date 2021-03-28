@@ -24,6 +24,7 @@ namespace WebApplication.Controllers
             _hubContext = hubContext;
         }
 
+        // GET: api/Notifications/notificationcount  
         [Route("notificationcount")]
         [HttpGet]
         public async Task<ActionResult<NotificationCountResult>> GetNotificationCount()
@@ -37,7 +38,7 @@ namespace WebApplication.Controllers
             return result;
         }
 
-        // GET: api/Notifications/notificationresult
+        // GET: api/Notifications/notificationresult  
         [Route("notificationresult")]
         [HttpGet]
         public async Task<ActionResult<List<NotificationResult>>> GetNotificationMessage()
@@ -52,8 +53,7 @@ namespace WebApplication.Controllers
             return await results.ToListAsync();
         }
 
-
-        // DELETE: api/Notifications/deletenotifications
+        // DELETE: api/Notifications/deletenotifications  
         [HttpDelete]
         [Route("deletenotifications")]
         public async Task<IActionResult> DeleteNotifications()
@@ -64,8 +64,5 @@ namespace WebApplication.Controllers
 
             return NoContent();
         }
-
-
-
     }
 }

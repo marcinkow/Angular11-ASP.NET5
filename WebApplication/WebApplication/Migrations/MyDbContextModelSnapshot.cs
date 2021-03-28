@@ -20,7 +20,7 @@ namespace WebApplication.Migrations
 
             modelBuilder.Entity("WebApplication.Models.Employee", b =>
                 {
-                    b.Property<string>("id")
+                    b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Address")
@@ -41,7 +41,7 @@ namespace WebApplication.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("id");
+                    b.HasKey("Id");
 
                     b.ToTable("Employee");
                 });

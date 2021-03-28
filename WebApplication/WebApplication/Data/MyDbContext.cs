@@ -9,12 +9,12 @@ namespace WebApplication.Data
 {
     public class MyDbContext : DbContext
     {
-        public MyDbContext (DbContextOptions<MyDbContext> options)
+        public MyDbContext(DbContextOptions<MyDbContext> options)
             : base(options)
         {
         }
 
-        public DbSet<WebApplication.Models.Employee> Employee { get; set; }
-        public DbSet<WebApplication.Models.Notification> Notification { get; set; }
+        public DbSet<Employee> Employee { get; set; }
+        public DbSet<Notification> Notification { get; set; }
     }
 }

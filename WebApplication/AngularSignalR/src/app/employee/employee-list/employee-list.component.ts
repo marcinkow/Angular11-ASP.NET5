@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
-import { Employee } from '../employee';
-import { EmployeeService } from '../employee.service';
-import * as signalR from '@microsoft/signalr'; 
-import { environment } from 'src/environments/environment';
-
+import { Component, OnInit } from '@angular/core';  
+import { Employee } from '../employee';  
+import { EmployeeService } from '../employee.service';  
+import * as signalR from '@microsoft/signalr';  
+import { environment } from 'src/environments/environment';  
+  
 @Component({  
   selector: 'app-employee-list',  
   templateUrl: './employee-list.component.html',  
@@ -85,4 +85,4 @@ export class EmployeeListComponent implements OnInit {
     );  
   }  
   
-}    
+}  
